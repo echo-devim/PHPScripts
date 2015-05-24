@@ -1,0 +1,42 @@
+div#notifiche {
+	padding: 5px;
+	left: 50%;
+	width:300px;
+	margin-left:-150px;
+	bottom: 0;
+	position: fixed;
+	/*height: 30px;*/
+	background: #1B2024;
+	border-bottom: 1px solid black;
+	text-align:center;
+	max-height:720px;
+}
+
+table#tabella_notifiche td{
+	border-bottom:1px dashed #717171;
+	width:290px;
+	padding:10px;
+}
+
+div#contenitore_notifiche {
+	margin: auto;
+	padding: 5px;
+	background: #FFFFFF;
+	color: #717171;
+	border-width: 1px solid silver;
+	text-align:left;
+	font-family: 'Courier', sans-serif;
+	font-size:15px;
+	width:290px;
+	max-height:680px;
+	overflow-y: auto;
+}
+
+span#avviso_notifiche {
+	font-family: 'Courier', sans-serif;
+	font-size:15px;
+}
+
+body {
+	margin: 0px;
+}

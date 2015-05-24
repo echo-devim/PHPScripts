@@ -1,0 +1,71 @@
+body {
+	/*width:100%;*/
+	background-color:#E0E0E0;
+	margin:0;
+	padding:5px;
+}
+table.log_table {
+	border: none;
+	border-collapse: collapse;
+}
+
+table.log_table td{
+	padding:5px;
+	overflow-y:auto;
+	width:150px;
+	border: 2px solid #191970;
+	color: #191970;
+	font-family: 'Courier', sans-serif;
+	font-size:14px;
+}
+
+div.contenitore_log {
+	float:right;
+}
+
+div.dettagli {
+}
+
+table.tabella_ban {
+	font-family: 'Courier', sans-serif;
+	font-size:12px;
+}
+
+table.tabella_ban td{
+	border:1px dashed silver;
+}
+
+div.pannello_admin {
+	border: 2px solid #191970;
+	color: #191970;
+	font-family: 'Courier', sans-serif;
+	font-size:14px;
+	width:220px;
+	margin-bottom:20px;
+	background-color:#E3E8F8;
+	padding:5px;
+}
+
+div.attivita {
+	max-height:120px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	word-wrap:break-word;
+	width:500px;
+}
+
+div.locazione {
+	max-height:120px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	word-wrap:break-word;
+	max-width:150px;
+}
+
+input.pulsante {
+	background-color:#3159D1;
+	color:#ECECEC;
+	border: 1px solid #191970;
+	font-family: 'Courier', sans-serif;
+	font-size:14px;
+}

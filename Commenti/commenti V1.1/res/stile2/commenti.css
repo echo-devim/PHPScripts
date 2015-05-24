@@ -1,0 +1,43 @@
+div#commenti
+{
+	/*border:1px solid silver;*/
+	padding:10px;
+	text-align:left;
+	color:#000000;
+	font-size:15px;
+	font-style:Verdana;
+	/*background-image:url('box.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;*/	/*box-shadow: 1px 1px 0.5px #dedede;
+	background-color:#FFFFF0;*/
+}
+
+div#nuovo_commento
+{
+	margin-left:10px;
+}
+
+table#tab_commenti
+{
+	width:100%;
+	border-spacing:10px;
+	padding:10px;
+	table-layout:fixed;
+}
+table#tab_commenti td
+{
+	padding:8px;
+	font-size:16px;
+	font-style:Verdana;
+	border:1px solid silver;
+	background-color:#F8F5E8;
+}
+
+input#pulsante
+{
+	color:#F1ECEC;
+	background-color:#A9A9A9;
+	border-color:#504F4F;
+	border-width:1px;
+}

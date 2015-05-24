@@ -1,0 +1,41 @@
+div#commenti
+{
+	border:1px solid silver;	border-radius: 20px; 
+	-moz-border-radius: 20px; /* firefox */
+	-webkit-border-radius: 20px; /* safari, chrome */
+	padding:10px;
+	text-align:left;
+	color:#000000;
+	font-size:15px;
+	font-style:Verdana;
+	/*background-image:url('box.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;*/	box-shadow: 1px 1px 0.5px #dedede;	
+}
+
+div#nuovo_commento
+{
+
+}
+
+table#tab_commenti
+{
+	width:100%;
+	table-layout:fixed;
+}
+
+table#tab_commenti td
+{
+	padding:8px;
+	font-size:16px;
+	font-style:Verdana;
+	border-bottom:1px dashed silver;
+}
+
+input#pulsante
+{
+	background:#DCDCDC;
+	border-color:#A9A9A9;
+	border-width:1px;
+}
